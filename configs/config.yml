@@ -78,8 +78,10 @@ default_locale: en
 timezone: ""
 
 # Plugins
-plugins: []
-
+#plugins: []
+plugins:
+    "Mibew:Emoji":
+        ignore_emoticons: false
 ## Exapmle of plugins configuration
 # plugins:
 #     "VendorName:PluginName":
@@ -87,7 +89,9 @@ plugins: []
 #         some_configurable_value: value
 #     "VendorName:AnotherPluginName":
 #         very_important_value: "$3.50"
-plugins:
-    "Mibew:TitleNotification": # Plugin's configurations are described below
-        new_thread: false
-        new_message: "operator"
+#plugins:
+#    "Mibew:Emoji":
+#	ignore_emoticons:false
+#    "Mibew:TitleNotification": # Plugin's configurations are described below
+#        new_thread: false
+#        new_message: "operator"
