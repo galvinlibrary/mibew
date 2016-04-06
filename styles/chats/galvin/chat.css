@@ -549,3 +549,18 @@ ul li {
     float: none;
     display: inline-block;
 }
+
+
+a#submit-survey{ // make submit button on chat larger
+    font-size: 16px;
+    font-weight: bold;
+    padding: 4px 6px;
+    background: #4c808c;
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    margin: 10px 0 0 0;
+    color: white;
+    text-align: center;
+    border: 1px solid #2e4e55;
+}
