@@ -40,7 +40,7 @@
                 requireBlur: true,
                 stopOnFocus: true,
                 duration: 0,
-                interval: 1000
+                interval: 50
             });
         });
     });
